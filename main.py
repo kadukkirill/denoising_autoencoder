@@ -95,7 +95,8 @@ class MyWin(QtWidgets.QMainWindow):
 
             self.y_noise_normal = np.array(self.y_noise_normal)
             self.y_pure_normal = np.array(self.y_pure_normal)
-            self.noise_input = self.y_noise_normal.reshape((self.y_noise_normal.shape[0], self.y_noise_normal.shape[1], 1))
+            self.noise_input = self.y_noise_normal.reshape(
+                (self.y_noise_normal.shape[0], self.y_noise_normal.shape[1], 1))
             self.pure_input = self.y_pure_normal.reshape((self.y_pure_normal.shape[0], self.y_pure_normal.shape[1], 1))
 
             self.percent_training = round((1 - test_split) * len(self.noise_input))
@@ -142,7 +143,7 @@ class MyWin(QtWidgets.QMainWindow):
             self.model = Sequential()
             self.model.add(
                 Conv1D(first_layer, kernel_size=kernel_size, activation='relu',
-                       kernel_initializer='he_uniform',input_shape=input_shape))
+                       kernel_initializer='he_uniform', input_shape=input_shape))
             self.model.add(Conv1D(second_layer, kernel_size=kernel_size,
                                   activation='relu', kernel_initializer='he_uniform'))
             self.model.add(Conv1DTranspose(second_layer, kernel_size=kernel_size,
@@ -157,7 +158,7 @@ class MyWin(QtWidgets.QMainWindow):
             stack_ae = self.main_window.spinBox.value()
 
             self.model.fit(self.noise_input, self.pure_input, epochs=num_epochs,
-                           batch_size=batch_size,validation_split=validation_split)
+                           batch_size=batch_size, validation_split=validation_split)
 
             # we take the output of the previous autoencoder and combine it
             # with the original noisy data, and we feed the
@@ -214,9 +215,10 @@ class MyWin(QtWidgets.QMainWindow):
                 plt.ylabel('Амплітуда', fontsize=12)
                 plt.title('Denoised AE')
                 j += 1
-                # corr_matrix = np.corrcoef(pure, reconstruction) plt.text(0, 0, "corr coef: " +
-                # str(round(
-                # corr_matrix[0, 1],3)), size='medium', weight="bold", backgroundcolor="0.7")
+                # #TODO
+                # corr_matrix = np.corrcoef(pure, reconstruction)
+                # plt.text(0, 0, "corr coef: " + str(round(corr_matrix[0, 1], 3)), size='medium', weight="bold",
+                #          backgroundcolor="0.7")
                 plt.show()
                 self.main_window.label_error.setText("")
         except ValueError:

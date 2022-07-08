@@ -25,44 +25,44 @@ class Ui_MainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(30, 20, 111, 61))
         self.pushButton.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
-"background-color: rgb(163, 197, 200);\n"
-"border-radius: 7px;\n"
-"border: 2px solid rgb(0, 0, 0);")
+                                      "background-color: rgb(163, 197, 200);\n"
+                                      "border-radius: 7px;\n"
+                                      "border: 2px solid rgb(0, 0, 0);")
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_2.setGeometry(QtCore.QRect(150, 20, 111, 61))
         self.pushButton_2.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
-"background-color: rgb(163, 197, 200);\n"
-"border-radius: 7px;\n"
-"border: 2px solid rgb(0, 0, 0);")
+                                        "background-color: rgb(163, 197, 200);\n"
+                                        "border-radius: 7px;\n"
+                                        "border: 2px solid rgb(0, 0, 0);")
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_3.setGeometry(QtCore.QRect(30, 190, 111, 61))
         self.pushButton_3.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
-"background-color: rgb(163, 197, 200);\n"
-"border-radius: 7px;\n"
-"border: 2px solid rgb(0, 0, 0);")
+                                        "background-color: rgb(163, 197, 200);\n"
+                                        "border-radius: 7px;\n"
+                                        "border: 2px solid rgb(0, 0, 0);")
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_4.setGeometry(QtCore.QRect(280, 20, 111, 61))
         self.pushButton_4.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
-"background-color: rgb(163, 197, 200);\n"
-"border-radius: 7px;\n"
-"border: 2px solid rgb(0, 0, 0);")
+                                        "background-color: rgb(163, 197, 200);\n"
+                                        "border-radius: 7px;\n"
+                                        "border: 2px solid rgb(0, 0, 0);")
         self.pushButton_4.setObjectName("pushButton_4")
         self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_5.setGeometry(QtCore.QRect(400, 20, 111, 61))
         self.pushButton_5.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
-"background-color: rgb(163, 197, 200);\n"
-"border-radius: 7px;\n"
-"border: 2px solid rgb(0, 0, 0);")
+                                        "background-color: rgb(163, 197, 200);\n"
+                                        "border-radius: 7px;\n"
+                                        "border: 2px solid rgb(0, 0, 0);")
         self.pushButton_5.setObjectName("pushButton_5")
         self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_6.setGeometry(QtCore.QRect(150, 190, 111, 61))
         self.pushButton_6.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
-"background-color: rgb(163, 197, 200);\n"
-"border-radius: 7px;\n"
-"border: 2px solid rgb(0, 0, 0);")
+                                        "background-color: rgb(163, 197, 200);\n"
+                                        "border-radius: 7px;\n"
+                                        "border: 2px solid rgb(0, 0, 0);")
         self.pushButton_6.setObjectName("pushButton_6")
         self.formLayoutWidget_3 = QtWidgets.QWidget(self.centralwidget)
         self.formLayoutWidget_3.setGeometry(QtCore.QRect(30, 90, 231, 91))
@@ -76,7 +76,7 @@ class Ui_MainWindow(object):
         self.formLayout_4.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label_19)
         self.lineEdit_pure_file = QtWidgets.QLineEdit(self.formLayoutWidget_3)
         self.lineEdit_pure_file.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                              "border-radius: 5px;")
         self.lineEdit_pure_file.setObjectName("lineEdit_pure_file")
         self.formLayout_4.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.lineEdit_pure_file)
         self.label_20 = QtWidgets.QLabel(self.formLayoutWidget_3)
@@ -85,7 +85,7 @@ class Ui_MainWindow(object):
         self.formLayout_4.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.label_20)
         self.lineEdit_noise_file = QtWidgets.QLineEdit(self.formLayoutWidget_3)
         self.lineEdit_noise_file.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                               "border-radius: 5px;")
         self.lineEdit_noise_file.setObjectName("lineEdit_noise_file")
         self.formLayout_4.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.lineEdit_noise_file)
         self.label_10 = QtWidgets.QLabel(self.formLayoutWidget_3)
@@ -94,7 +94,7 @@ class Ui_MainWindow(object):
         self.formLayout_4.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.label_10)
         self.lineEdit_test_split = QtWidgets.QLineEdit(self.formLayoutWidget_3)
         self.lineEdit_test_split.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                               "border-radius: 5px;")
         self.lineEdit_test_split.setObjectName("lineEdit_test_split")
         self.formLayout_4.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.lineEdit_test_split)
         self.formLayoutWidget_4 = QtWidgets.QWidget(self.centralwidget)
@@ -109,7 +109,7 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label_13)
         self.lineEdit_dur = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_dur.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                        "border-radius: 5px;")
         self.lineEdit_dur.setObjectName("lineEdit_dur")
         self.formLayout_5.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.lineEdit_dur)
         self.label_7 = QtWidgets.QLabel(self.formLayoutWidget_4)
@@ -118,7 +118,7 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.label_7)
         self.lineEdit_sampling_rate = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_sampling_rate.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                                  "border-radius: 5px;")
         self.lineEdit_sampling_rate.setObjectName("lineEdit_sampling_rate")
         self.formLayout_5.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.lineEdit_sampling_rate)
         self.label_11 = QtWidgets.QLabel(self.formLayoutWidget_4)
@@ -127,7 +127,7 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.label_11)
         self.lineEdit_val_split = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_val_split.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                              "border-radius: 5px;")
         self.lineEdit_val_split.setObjectName("lineEdit_val_split")
         self.formLayout_5.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.lineEdit_val_split)
         self.label_8 = QtWidgets.QLabel(self.formLayoutWidget_4)
@@ -136,7 +136,7 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(3, QtWidgets.QFormLayout.LabelRole, self.label_8)
         self.lineEdit_batch_size = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_batch_size.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                               "border-radius: 5px;")
         self.lineEdit_batch_size.setObjectName("lineEdit_batch_size")
         self.formLayout_5.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.lineEdit_batch_size)
         self.label_9 = QtWidgets.QLabel(self.formLayoutWidget_4)
@@ -145,7 +145,7 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(4, QtWidgets.QFormLayout.LabelRole, self.label_9)
         self.lineEdit_epochs = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_epochs.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                           "border-radius: 5px;")
         self.lineEdit_epochs.setObjectName("lineEdit_epochs")
         self.formLayout_5.setWidget(4, QtWidgets.QFormLayout.FieldRole, self.lineEdit_epochs)
         self.label_12 = QtWidgets.QLabel(self.formLayoutWidget_4)
@@ -154,9 +154,9 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(5, QtWidgets.QFormLayout.LabelRole, self.label_12)
         self.lineEdit_kernel = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_kernel.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"\n"
-"border-radius: 5px;\n"
-"")
+                                           "\n"
+                                           "border-radius: 5px;\n"
+                                           "")
         self.lineEdit_kernel.setObjectName("lineEdit_kernel")
         self.formLayout_5.setWidget(5, QtWidgets.QFormLayout.FieldRole, self.lineEdit_kernel)
         self.label_15 = QtWidgets.QLabel(self.formLayoutWidget_4)
@@ -165,7 +165,7 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(6, QtWidgets.QFormLayout.LabelRole, self.label_15)
         self.spinBox = QtWidgets.QSpinBox(self.formLayoutWidget_4)
         self.spinBox.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                   "border-radius: 5px;")
         self.spinBox.setMinimum(1)
         self.spinBox.setMaximum(3)
         self.spinBox.setObjectName("spinBox")
@@ -176,7 +176,7 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(7, QtWidgets.QFormLayout.LabelRole, self.label_16)
         self.lineEdit_first_layer = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_first_layer.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                                "border-radius: 5px;")
         self.lineEdit_first_layer.setObjectName("lineEdit_first_layer")
         self.formLayout_5.setWidget(7, QtWidgets.QFormLayout.FieldRole, self.lineEdit_first_layer)
         self.label_17 = QtWidgets.QLabel(self.formLayoutWidget_4)
@@ -185,7 +185,7 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(8, QtWidgets.QFormLayout.LabelRole, self.label_17)
         self.lineEdit_second_layer = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_second_layer.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                                 "border-radius: 5px;")
         self.lineEdit_second_layer.setObjectName("lineEdit_second_layer")
         self.formLayout_5.setWidget(8, QtWidgets.QFormLayout.FieldRole, self.lineEdit_second_layer)
         self.label_14 = QtWidgets.QLabel(self.formLayoutWidget_4)
@@ -194,13 +194,13 @@ class Ui_MainWindow(object):
         self.formLayout_5.setWidget(9, QtWidgets.QFormLayout.LabelRole, self.label_14)
         self.lineEdit_num_visualize = QtWidgets.QLineEdit(self.formLayoutWidget_4)
         self.lineEdit_num_visualize.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                                  "border-radius: 5px;")
         self.lineEdit_num_visualize.setObjectName("lineEdit_num_visualize")
         self.formLayout_5.setWidget(9, QtWidgets.QFormLayout.FieldRole, self.lineEdit_num_visualize)
         self.label_error = QtWidgets.QLabel(self.centralwidget)
         self.label_error.setGeometry(QtCore.QRect(30, 300, 221, 21))
         self.label_error.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
-"color: rgb(255, 0, 0);")
+                                       "color: rgb(255, 0, 0);")
         self.label_error.setText("")
         self.label_error.setObjectName("label_error")
         self.formLayoutWidget = QtWidgets.QWidget(self.centralwidget)
@@ -211,7 +211,7 @@ class Ui_MainWindow(object):
         self.formLayout.setObjectName("formLayout")
         self.lineEdit_weights_file = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.lineEdit_weights_file.setStyleSheet("border: 2px solid rgb(0, 0, 0);\n"
-"border-radius: 5px;")
+                                                 "border-radius: 5px;")
         self.lineEdit_weights_file.setObjectName("lineEdit_weights_file")
         self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.lineEdit_weights_file)
         self.label_21 = QtWidgets.QLabel(self.formLayoutWidget)
@@ -227,7 +227,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Autoencoder"))
         self.pushButton.setText(_translate("MainWindow", "Sound \n"
-"processing"))
+                                                         "processing"))
         self.pushButton_2.setText(_translate("MainWindow", "Load data"))
         self.pushButton_3.setText(_translate("MainWindow", "Load weights"))
         self.pushButton_4.setText(_translate("MainWindow", "Train"))
@@ -251,6 +251,7 @@ class Ui_MainWindow(object):
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
